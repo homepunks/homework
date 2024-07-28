@@ -2,6 +2,6 @@
 
 # assuming there are .txt files in  ~/start/
 
-mkdir -p ~/endpoint/
-cp ~/start/*.txt ~/endpoint/
-ls -l ~/endpoint/*.txt 
+mkdir -p $HOME/endpoint/
+cp $HOME/start/*.txt $HOME/endpoint/
+ls -l $HOME/endpoint/*.txt 
